@@ -1,0 +1,187 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat-bold";
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Heading Section */
+.big-heading{
+    font-family: "Montserrat-black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.section-game{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #425F57;
+    font-family: sans-serif;
+    font-weight: bold
+    
+    ;
+}
+
+/* Containers */
+.container-fluid{
+    padding:  7% 15%;
+}
+
+
+/* Sections */
+.coloured-section{
+    color: #fff;
+    background-color: #B6E388;
+}
+.white-section{
+    background-color: #fff;
+}
+
+
+/* Navigation Bar*/
+
+.navbar{
+    padding: 0 0 4.5rem;  /*  top leftryt bottom*/
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #fff;
+   
+}
+.nav-link:hover{
+    color:  #749F82;
+}
+
+
+/*Download Button*/
+.download-button{
+    margin: 5% 3% 5% 0;   /* top ryt left bottom*/
+}
+
+
+/* Title section*/
+
+#title .container-fluid{
+    padding: 4% 18%;
+    text-align: left;
+}
+
+.title-image{
+    width: 20%;
+    /*transform: rotate(25deg);     This line is for rotating image*/
+    position: absolute;
+    left: 60%;
+    border-radius: 100%;
+}
+
+
+/*Feature Styling*/
+#features{
+    position: relative;
+}
+.feature-text{
+    font-size: 1.5rem;
+    color: #425F57;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.feature-box{
+    padding: 4.5%;
+}
+
+
+.icon{
+    color: #B6E388;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #749F82;
+}
+
+/* Testimonials */
+#testimonials{
+    padding:  3% 11%;
+    background-color: #B6E388;
+    color: #fff;
+}
+.testimonial-text{
+    font-family: sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img{
+    width: 60%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #B6E388;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;  /* top left&right bottom*/
+} 
+
+/* game section*/
+
+#game{
+    padding: 100px;
+   
+}
+.game-text{
+    font-family: sans-serif;
+    color: #425F57;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.game-column{
+    padding: 3% 2%;
+}
+.game-head{
+    color: #425F57;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* Call to Action*/
+
+#cta{
+    background-color: #B6E388;
+    color: #fff;
+}
+/* Footer section*/
+
+#footer{
+    background-color: #fff;
+}
+.footer-icon{
+  margin: 30px 20px;  /* top n bottom & left n ryt*/
+}
+
+@media (max-width: 1028px) {
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
